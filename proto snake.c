@@ -1,4 +1,3 @@
-
 // C program to build the complete
 // snake game
 #include <conio.h>
@@ -89,7 +88,7 @@ void input()
 // each movement
 void logic()
 {
-    sleep(0);
+    sleep(1);
     switch (flag) {
     case 1:
         y--;
@@ -131,7 +130,7 @@ void logic()
 }
   
 // Driver Code
-int main()
+void main()
 {
     int m, n;
   
@@ -146,5 +145,5 @@ int main()
         input();
         logic();
     }
-    return 0;
 }
+
